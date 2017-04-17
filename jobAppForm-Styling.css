@@ -1,0 +1,77 @@
+body {
+    background-image:url('sakura.png');
+    float:initial;
+    align-items: center;
+    
+}
+
+h2 {
+text-align: center;
+font-family: "Kristen ITC";
+font-size: 36px;
+margin-bottom: 15px;
+text-shadow: 3px 2px darkred;
+
+}
+
+fieldset{
+  width:800px;
+  background-color:#D4706A;
+  border: groove pink;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  box-shadow: 4px 4px grey;
+  margin-bottom:20px;
+
+}
+
+legend {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Bell MT";
+  color: #0E4C3C;
+  margin-left:auto;
+  margin-right:auto;
+  text-decoration:underline;
+}
+
+label{
+  padding: 15px;
+  
+}
+
+input {
+  background-color: #FEAEAA;
+  margin:2px;
+
+}
+
+input:hover{ 
+  background-color:white;
+}
+
+select{
+  background-color: #FEAEAA;
+  margin:2px;
+}
+
+ul{
+  list-style-type:none;
+  
+}
+
+textarea{
+  width:100%;
+  box-sizing:border-box;
+  border-radius:5px;
+  resize:none;
+  background-color:#FEAEAA;
+
+}
+
+textarea:hover{
+  background-color:white;
+}
+
+
